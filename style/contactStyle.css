@@ -213,6 +213,7 @@ nav ul li a:hover {
     width: 40px;
     display: block;
     transform: rotate(90deg);
+    filter: drop-shadow(0px -1px deeppink);
 }
 
 .slider .next img {
@@ -220,6 +221,7 @@ nav ul li a:hover {
     width: 40px;
     display: block;
     transform: rotate(-90deg);
+    filter: drop-shadow(0px -1px deeppink);
 }
 
 .previous, .next {
