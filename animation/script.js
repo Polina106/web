@@ -11,7 +11,7 @@ function previous() {
 }
 
 function show(n) {
-    let cur = document.getElementsByClassName("el");
+    const cur = document.getElementsByClassName("el");
 
     if (n > cur.length) {
       idx = 1
